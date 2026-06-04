@@ -1,0 +1,21 @@
+# Terraform sensitive files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+*.tfvars
+
+# AWS credentials
+.aws/
+credentials
+
+# Lambda zip
+lambda.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
